@@ -1,0 +1,108 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: darkkhaki;
+}
+
+#mainBody {
+  height: 100%;
+  width: 100%;
+}
+
+#heading {
+  /* background-color: blue; */
+  height: 15%;
+  width: 100%;
+}
+
+#timer {
+  /* background-color: blueviolet; */
+  height: 15%;
+  width: 100%;
+}
+
+#converterBody {
+  height: 40%;
+
+  /* background-color: black; */
+}
+
+#country {
+  display: flex;
+  height: 50%;
+}
+
+#firstCountry {
+  height: 100%;
+  width: 35%;
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#switchButton {
+  height: 100%;
+  width: 30%;
+  /* background-color: chocolate; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#secondCountry {
+  height: 100%;
+  width: 35%;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputSpace{
+    display: flex;
+    height: 50%;
+}
+
+#from{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#empty{
+    height: 100%;
+    width: 30%;
+}
+
+#to{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentOne{
+    display: flex;
+    justify-content: center;
+}
+
+#switch{
+    height: 75px;
+    width: 150px;
+    color: black;
+    background-color: coral;
+
+}
+
+#contentTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mainBody">
+      <div id="heading">
+        <div id="contentOne">
+          <h1>Currency Converter</h1>
+        </div>
+      </div>
+      <div id="timer">
+        <div id="contentTwo">
+          <span id="calendarTime"></span>
+        </div>
+      </div>
+      <div id="converterBody">
+        <div id="country">
+          <div id="firstCountry">
+            <div id="contentThree">
+              <label for="fromCurrency">From:</label>
+              <select id="fromCurrency">
+                <option value="1">US Dollar USD</option>
+                <option value="83.535">Indian Rupee INR</option>
+                <option value="0.9013">Euro EUR</option>
+                <option value="0.7532">Pound Sterling GBP</option>
+                <option value="143.6567">Japanese Yen JPY</option>
+                <option value="0.3053">Kuwait dinar KWD</option>
+                <option value="0.8513">Swiss Franc CHF</option>
+                <option value="1.293">Singapore Dollar SGD</option>
+                <option value="1.6022">New Zealand Dollar NZD</option>
+                <option value="1.4671">Austrailian Dollar AUD</option>
+              </select>
+            </div>
+          </div>
+          <div id="switchButton">
+            <button id="switch">Switch</button>
+          </div>
+          <div id="secondCountry">
+            <label for="toCurrency">To:</label>
+            <select id="toCurrency">
+              <option value="1">US Dollar USD</option>
+              <option value="83.535">Indian Rupee INR</option>
+              <option value="0.9013">Euro EUR</option>
+              <option value="0.7532">Pound Sterling GBP</option>
+              <option value="143.6567">Japanese Yen JPY</option>
+              <option value="0.3053">Kuwait dinar KWD</option>
+              <option value="0.8513">Swiss Franc CHF</option>
+              <option value="1.293">Singapore Dollar SGD</option>
+              <option value="1.6022">New Zealand Dollar NZD</option>
+              <option value="1.4671">Austrailian Dollar AUD</option>
+            </select>
+          </div>
+        </div>
+        <div id="inputSpace">
+          <div id="from">
+            <input type="number" id="amount" placeholder="Enter the Amount" />
+          </div>
+          <div id="empty"></div>
+          <div id="to">
+            <span>Converted Amount: </span>
+            <span id="result">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
